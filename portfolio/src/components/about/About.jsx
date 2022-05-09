@@ -10,7 +10,7 @@ import sass from './assets/Sass_logo.png'
 
 const About = () => {
   return (
-    <div className="container__abt">
+    <div className="container__abt" id="about">
         <h1>Information</h1>
         <div className="wrapper__abt">
             <div className='aboutme'>

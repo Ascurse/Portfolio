@@ -34,7 +34,7 @@ const Projects = () => {
   }
 
   return (
-    <div className='slider'>
+    <div className='slider' id='projects'>
       <div className='slider-arrow-left' onClick={()=> handleClick("left")}>
         <ArrowBackIosOutlined/>
       </div>

@@ -7,7 +7,7 @@ import resume from './assets/resume.svg'
 
 const Contacts = () => {
   return (
-    <div className='contacts__container'>
+    <div className='contacts__container' id="contacts">
       <h1>Contact me!</h1>
       <div className='contact__links'>
         <a href='https://github.com/Ascurse' target='_blank'>
