@@ -1,0 +1,15 @@
+.contacts__container {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__links {
+    align-items: center;
+    padding-top: 40px;
+    img {
+        height: 60px;
+        width: auto;
+        padding: 0px 30px 0px 30px;
+    }
+}

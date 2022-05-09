@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { sliderItems } from '../../data';
 import ArrowBackIosOutlined from '@mui/icons-material/ArrowBackIosOutlined';
 import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import github from './assets/github.svg'
 
 const Wrapper = styled.div`
   height: 100%;
@@ -50,7 +50,7 @@ const Projects = () => {
 								<h3>Technologies:</h3>
 								<p className='slider-tech'>{item.tech}</p>
                 <a href={item.link} target="_blank">
-									<GitHubIcon fontSize='large'/>
+									<img src={github} height="60px" width="auto" />
 								</a>
                 </div>
             </Slide>

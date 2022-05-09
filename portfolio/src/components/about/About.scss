@@ -1,0 +1,56 @@
+.container__abt {
+    min-height: 400px;
+    background-color: #80D1C5;
+}
+
+.wrapper__abt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.aboutme {
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+.personal__container {
+    display: flex;
+    flex-direction: row;
+    img {
+        border-radius: 50px;
+        height: 150px;
+        width: auto;
+        padding-left: 10px;
+        align-items: center;
+
+    }
+    div {
+        padding-top: 30px;
+        padding-left: 20px;
+        text-align: center;
+    }
+}
+
+.technologies {
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+.stack__container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    justify-content: space-evenly;
+}
+
+.img__container {
+    flex-direction: row;
+    img {
+        height: 70px;
+        width: auto;
+        padding: 20px;
+    }
+}
