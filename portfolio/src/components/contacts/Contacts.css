@@ -7,18 +7,23 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .contact__links {
+  padding-top: 40px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.contact__links img {
-  max-height: 60px;
-  width: auto;
-  padding: 0px 30px 0px 30px;
+.contact__links a img {
+  max-width: 60px;
+  height: auto;
+  padding: 30px;
 }
 /*# sourceMappingURL=Contacts.css.map */

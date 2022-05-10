@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <div className='container' id="header">
       <div className='left'>
-        <img src={code} width="30" height="30"/>
-        <h3>@Ascurse Web-Developer</h3>
+        <img src={code} width="60" height="60"/>
+        <h2>@Ascurse Web-Developer</h2>
       </div>
       <nav className='right'>
         <HashLink smooth to="#projects">
