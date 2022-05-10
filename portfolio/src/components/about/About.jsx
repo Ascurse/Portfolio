@@ -17,13 +17,13 @@ const About = () => {
                 <h2>About me:</h2>
                 <div className='personal__container'>
                     <img className='person__img' src={avatar}/>
-                    <div className='person__info'>
+                    <p className='person__info'>
                         Hello, my name is Maximilian Shupyro. 
                         I'm a web-developer located at Moscow, Russia. 
                         I create both frontend and backend, but frontend is what I love a little bit more :) 
                         I always try to learn new technologies and improve my knowledge. 
                         Feel free to check out my GitHub!
-                    </div>
+                    </p>
                 </div>
             </div>
             <div className='technologies'>

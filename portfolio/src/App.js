@@ -25,12 +25,12 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-      <Header />
-      <h1>Projects:</h1>
-      <Projects />
-      <About />
-      <Contacts />
-    </div>
+        <Header />
+        <h1>Projects:</h1>
+        <Projects />
+        <About />
+        <Contacts />
+      </div>
     </BrowserRouter>
   );
 }

@@ -7,16 +7,19 @@ import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutl
 import github from './assets/github.svg'
 
 const Wrapper = styled.div`
-  height: 100%;
+  max-height: auto;
+  max-width: 2000px;
+  position: relative;
   display: flex;
   transition: all 1.5s ease;
-  transform: translateX(${(props)=> props.slideIndex * -100}vw)
+  transform: translateX(${(props)=> props.slideIndex * -100}vw);
 `;
 
 const Slide = styled.div`
-  width: 100vw;
-  height: 100vh;
+  max-width: 3000px;
+  max-height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center;
   background-color: #${(props) => props.bg};
 `;
@@ -45,13 +48,13 @@ const Projects = () => {
                 <img className='slider-image' src={item.img} />
             </div>
                 <div className='slider-info'>
-                <h1 className='slider-title'>{item.title}</h1>
-                <p className='slider-desc'>{item.desc}</p>
-								<h3>Technologies:</h3>
-								<p className='slider-tech'>{item.tech}</p>
-                <a href={item.link} target="_blank">
-									<img src={github} height="60px" width="auto" />
-								</a>
+                  <h1 className='slider-title'>{item.title}</h1>
+                  <p className='slider-desc'>{item.desc}</p>
+                  <h3>Technologies:</h3>
+                  <p className='slider-tech'>{item.tech}</p>
+                  <a className= 'link__icon' href={item.link} target="_blank">
+                    <img src={github} />
+                  </a>
                 </div>
             </Slide>
             ))}

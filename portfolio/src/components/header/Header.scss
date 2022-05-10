@@ -3,7 +3,9 @@
     background-color: #BF9BF2;
     display: flex;
     min-height: 60px;
+    min-width: 100%;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -24,7 +26,7 @@
 .right {
     display: flex;
     justify-content: flex-end;
-    span {
-        margin: 15px;
+    a {
+        margin: 20px 25px 20px 20px;
     }
 }

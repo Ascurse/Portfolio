@@ -1,4 +1,13 @@
 .App {
   text-align: center;
   display: grid;
+  h1 {
+    text-align: center;
+  }
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 150%;
+    }
+  }
 }
+

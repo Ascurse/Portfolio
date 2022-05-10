@@ -3,4 +3,14 @@
   display: -ms-grid;
   display: grid;
 }
+
+.App h1 {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .App h1 {
+    font-size: 150%;
+  }
+}
 /*# sourceMappingURL=App.css.map */
